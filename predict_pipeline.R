@@ -1,5 +1,5 @@
 library(reticulate)
-use_python("/usr/bin/python3.8")
+use_python("/usr/bin/python3")
 source_python("train.py")
 
 pipeline <- train()
